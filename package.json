@@ -1,0 +1,17 @@
+{
+  "name": "time-parser-ambiguity-resolver",
+  "version": "0.1.0",
+  "description": "Parses loosely formatted time strings like '3pm', '15:00', and '3:00 PM' into a normalized 24-hour structure with validation.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
